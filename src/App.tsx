@@ -1,15 +1,13 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header/Header'
-import { MainBlock } from './components/MainBlock/MainBlock'
 function App() {
   
 
   return (
     <>
       <div className='block'>
+        <Outlet/>
         
-        <Header/>
-        <MainBlock/>
       </div>
     </>
   )
