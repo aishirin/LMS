@@ -1,0 +1,32 @@
+.title{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.imgBlock{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.imgBlock img{
+    width: 250px;
+    
+    
+}
+.img1:hover{
+    width: 260px;
+    transition: 0.2s;
+    
+}
+
+.img2:hover{
+    width: 280px;
+    /* transform: rotate(10deg) */
+}
+.img3:hover{
+    width: 280px;
+    /* transform: rotate(10deg) */
+}
