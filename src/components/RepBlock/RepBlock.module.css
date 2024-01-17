@@ -1,16 +1,26 @@
 .bigblock{
-    height: 700px;
+    /* height: 700px; */
+    display: flex;
+    justify-content: center;
     width: 100%;
     background-color: #ffce32;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .block{
-    width: 1440px;
-    height: 700px;
+    max-width: 1440px;
+    margin:  0 auto;
+
+    /* padding: 70px; */
+    /* height: 700px; */
 }
 
 .title{
     text-align: center;
     font-size: 40px;
     padding:  30px;
+}
+.swiper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
 }

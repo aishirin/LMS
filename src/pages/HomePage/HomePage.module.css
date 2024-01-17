@@ -1,0 +1,12 @@
+.block{
+    max-width: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    padding:  30px;
+}
+.text{
+    margin: 0 auto;
+    width: 700px;
+}
