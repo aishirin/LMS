@@ -1,14 +1,15 @@
 import css from "./Header.module.css";
 import logolms from "../../assets/logo-lms.png";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className={css.bigblock}>
       <div className={css.block}>
       <img src={logolms} alt="logo" className={css.logo} />
           <div className={css.list}>
-          <a href="#">Главная</a>
+          <Link to="homepage">Главная</Link>
           <div className={css.dropdown}>
-            <button className={css.dropbtn}>Физика</button>
+            <Link to="physicpage"><button className={css.dropbtn}>Физика</button></Link>
             <div className={css.dropdownContent}>
               <a href="#">8 класс</a>
               <a href="#">9 класс</a>

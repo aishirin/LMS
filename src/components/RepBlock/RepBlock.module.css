@@ -1,0 +1,16 @@
+.bigblock{
+    height: 700px;
+    width: 100%;
+    background-color: #ffce32;
+    margin-bottom: 40px;
+}
+.block{
+    width: 1440px;
+    height: 700px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    padding:  30px;
+}

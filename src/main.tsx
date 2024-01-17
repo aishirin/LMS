@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider,} from "react-router-dom";
 import Protected from './shared/Protected/Protected.tsx';
 import { HomePage } from './pages/HomePage/HomePage.tsx';
 import Layout from './layout/layout.tsx';
+import { PhysicPage } from './pages/PhysicPage/PhysicPage.tsx';
 
 
 
@@ -28,6 +29,9 @@ import Layout from './layout/layout.tsx';
           {
             path: "homepage",
             element: <HomePage />,   
+          },{
+            path: "physicpage",
+            element: <PhysicPage />,   
           },
         ]
       },
