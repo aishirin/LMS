@@ -1,6 +1,6 @@
 import css from "./Header.module.css";
 import logolms from "../../assets/logo-lms.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <div className={css.bigblock}>
@@ -26,7 +26,7 @@ function Header() {
               <a href="#">11 класс</a>
             </div>
           </div>
-          <a href="#">Репетиторы</a>
+          <NavLink to="teachers">Репетиторы</NavLink>
           <a href="#">Учебные Материалы</a>
           <a href="#">Войти</a>
           </div>
