@@ -8,6 +8,7 @@ import Protected from './shared/Protected/Protected.tsx';
 import { HomePage } from './pages/HomePage/HomePage.tsx';
 import Layout from './layout/layout.tsx';
 import { PhysicPage } from './pages/PhysicPage/PhysicPage.tsx';
+import Teachers from './pages/Taechers/Teachers.tsx';
 
 
 
@@ -32,6 +33,10 @@ import { PhysicPage } from './pages/PhysicPage/PhysicPage.tsx';
           },{
             path: "physicpage",
             element: <PhysicPage />,   
+          },
+          {
+            path: "teachers",
+            element: <Teachers />,   
           },
         ]
       },
