@@ -1,0 +1,14 @@
+.home{
+    margin: 0;
+    padding: 0;
+
+    background: var(--bg-yellow--);
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: var(--width-cont);
+    border: 1px solid rebeccapurple;
+}

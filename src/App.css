@@ -5,7 +5,8 @@
     font-family: sans-serif;
 }
 :root{
-    --bg--:#1d63ff
-    --bg-yellow--:#ffce32
+    --bg--:#1d63ff;
+    --bg-yellow--:#ffce32;
+    --bg-grey:#777;
+    --width-cont : 1440px;
 }
-
