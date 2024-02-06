@@ -6,22 +6,23 @@
 .title{
 
     font-size:41px;
-    width: 500px;
-    margin-left: 150px; 
+    width: 45%;
+    margin-left: 5%; 
     padding-top: 200px;   
-    font-family: cursive
-}.title1{
-    margin-left: 350px; 
+    font-style: italic;
+}
+
+.title1{
+    margin-left: 15%; 
     padding-top: 10px;
     font-size:41px;
-    width: 500px;
-    font-family: cursive;
-      
+    width: 50%;
+    font-style: italic;      
 }
 .boy{
-    width: 800px;
+    width: 50%;
     position: absolute;
     top: 0px;
-    right: 100px;
+    right: 5%;
     
 }

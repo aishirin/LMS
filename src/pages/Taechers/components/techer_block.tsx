@@ -9,7 +9,7 @@ import style from './blok.module.css'
         return (
           <div className={style.conteiner}>
             <div className={style.GridItem}>
-              hello
+              Name
             </div>
           </div>
         );

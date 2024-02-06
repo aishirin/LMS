@@ -1,7 +1,11 @@
+.block {
+    background-color: #151414;
+}
 .title{
     text-align: center;
     font-size: 40px;
     padding-top: 30px;
+    color: #999;
 }
 .imgBlock{
     height: 400px;
@@ -13,8 +17,7 @@
 }
 .imgBlock img{
     width: 250px;
-    
-    
+    border-radius: 50%;
 }
 .img1:hover{
     width: 260px;
